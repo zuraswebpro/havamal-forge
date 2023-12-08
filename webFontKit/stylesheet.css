@@ -37,6 +37,8 @@
   height: 40px;
   font-size: 15px;
   background-color: firebrick;
+  font-weight: bold;
+  color: whitesmoke;
 }
 .btm-info {
   color: whitesmoke;
