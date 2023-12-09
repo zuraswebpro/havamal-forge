@@ -28,7 +28,7 @@
 #quote-text {
   font-family: norseregular;
   word-wrap: break-word;
-  color: whitesmoke;
+  color: white;
   font-size: 30px;
 }
 .quote-btn {
@@ -43,10 +43,4 @@
 .btm-info {
   color: whitesmoke;
   margin-top: 50px;
-}
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
 }
