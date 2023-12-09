@@ -12,7 +12,7 @@ let quotes = [
   '"The foolish man thinks he will live forever if he keeps away from fighting; but old age won\'t grant him a truce, even if the spears spare him." - Odin',
 ]; // havamal quote array
 
-// add function to button in index.html
+// function that runs on button click
 function displayQuote() {
   let forge = quotes[Math.floor(Math.random() * quotes.length)];
   quoteText.textContent = forge;
