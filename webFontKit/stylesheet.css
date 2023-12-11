@@ -33,7 +33,7 @@
   font-size: 30px;
   font-weight: bold;
 }
-.quote-btn {
+#quote-btn {
   font-family: norseregular;
   width: 100px;
   height: 40px;
@@ -41,9 +41,10 @@
   background-color: firebrick;
   font-weight: bold;
   color: whitesmoke;
-  border: 3px solid black.;
+  border: 3px solid black;
   border-radius: 7px;
   margin-left: 20px;
+  cursor: pointer;
 }
 .btm-info {
   color: whitesmoke;
