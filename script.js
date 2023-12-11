@@ -1,5 +1,5 @@
-let quoteText = document.getElementById("quote-text"); // gets quote-text from html p tag
-let quote_btn = document.getElementById("quote-btn");
+let quoteText = document.getElementById("quote-text"); // gets quote-text from id "quote-text"" tag
+let quote_btn = document.getElementById("quote-btn"); // grabs button w/ id "quote-btn"
 let quotes = [
   '"Cattle die, kinsmen die, you yourself will also die. I know one thing that never dies: the judgment of a dead man\'s life." - Odin',
   '"One\'s own house is best, small though it be; at home is everyone his own master. Though he have but two goats and a bark-thatched hut, even that is better than begging." - Odin',
