@@ -80,7 +80,7 @@
   padding-top: 100px;
   color: whitesmoke;
 }
-@media (max-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   :root {
     --fs-xl: 3rem;
     --fs-900: 1.5rem;
