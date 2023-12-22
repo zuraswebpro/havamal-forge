@@ -4,6 +4,7 @@
   --fs-xl: 7rem;
   --fs-900: 2rem;
   --fs-600: 1.5rem;
+  --fs-400: 1.25rem;
   /* Placeholder */
 }
 @font-face {
@@ -85,6 +86,7 @@
     --fs-xl: 3rem;
     --fs-900: 1.5rem;
     --fs-600: 1.45rem;
+    --fs-400: 1.25rem;
   }
   .background-img {
     background: url(../Images/pawel-czerwinski-LDi9F6oGojQ-unsplash.jpg);
@@ -94,6 +96,8 @@
     /* Positioning */
   }
   .quote-btn {
-    /* margin-top: 2em; */
+    margin-top: 2em;
+    font-size: var(--fs-400);
+    width: 10rem;
   }
 }
