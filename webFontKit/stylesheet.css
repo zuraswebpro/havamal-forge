@@ -36,7 +36,6 @@
   color: whitesmoke;
   font-size: var(--fs-xl);
   text-align: center;
-  
 }
 .intro-container {
   display: flex;
@@ -101,5 +100,5 @@
     background-repeat: repeat;
     background-size: cover;
     /* Positioning */
+  }
 }
- 
