@@ -25,23 +25,26 @@
   background-repeat: no-repeat;
   background-size: cover;
   /* Positioning */
+  position: relative;
+  height: 100svh;
 }
 .title {
   /* Styles */
+  margin-top: auto;
   font-family: norseregular;
   text-shadow: #fc0 1px 0 10px;
   color: whitesmoke;
   font-size: var(--fs-xl);
   text-align: center;
-  word-wrap: break-word;
+  
 }
 .intro-container {
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 .introduction {
   /* Styles */
+  text-align: center;
   font-family: norseregular;
   font-size: var(--fs-900);
   word-wrap: break-word;
@@ -50,6 +53,8 @@
 }
 #quote-text {
   /* Styles */
+  padding: 15px 15px;
+  text-align: center;
   font-family: norseregular;
   word-wrap: break-word;
   color: whitesmoke;
@@ -71,14 +76,16 @@
   /* Positioning */
   padding-top: 5px;
   padding-bottom: 5px;
-  width: 150px;
+  width: clamp(200px, 10%, 400px);
   height: 40px;
+  margin-bottom: 10px;
 }
 .footer-container {
+  border: 2px solid white;
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-top: 100px;
+
   color: whitesmoke;
 }
 @media screen and (min-width: 320px) and (max-width: 425px) {
@@ -94,10 +101,5 @@
     background-repeat: repeat;
     background-size: cover;
     /* Positioning */
-  }
-  .quote-btn {
-    margin-top: 2em;
-    font-size: var(--fs-400);
-    width: 10rem;
-  }
 }
+ 
