@@ -87,7 +87,7 @@
 
   color: whitesmoke;
 }
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (min-width: 200px) and (max-width: 425px) {
   :root {
     --fs-xl: 3rem;
     --fs-900: 1.5rem;
@@ -100,5 +100,23 @@
     background-repeat: repeat;
     background-size: cover;
     /* Positioning */
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+  .background-img {
+  background: url(../Images/pawel-czerwinski-LDi9F6oGojQ-unsplash.jpg);
+  /* Styles */
+  background-repeat: repeat;
+  background-size: cover;
+  /* Positioning */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .background-img {
+  background: url(../Images/pawel-czerwinski-LDi9F6oGojQ-unsplash.jpg);
+  /* Styles */
+  background-repeat: repeat;
+  background-size: cover;
+  /* Positioning */
   }
 }
