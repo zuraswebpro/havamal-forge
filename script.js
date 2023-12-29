@@ -1,6 +1,6 @@
-const quoteText = document.getElementById("quote-text"); // gets quote-text from html p tag
+const quoteText = document.getElementById("quote-text"); // paragraph where quote is displayed
 const quoteBtn = document.getElementById("quote-btn");
-const quotes = [
+const havamalQuotes = [
   '"Cattle die, kinsmen die, you yourself will also die. I know one thing that never dies: the judgment of a dead man\'s life." - Odin',
   '"One\'s own house is best, small though it be; at home is everyone his own master. Though he have but two goats and a bark-thatched hut, even that is better than begging." - Odin',
   '"He welcomes the night who has enough provisions to last: short are the sails of a ship, too fast it moves with a favorable wind, and the distance is short to a poor man\'s home." - Odin',
@@ -14,6 +14,6 @@ const quotes = [
 ]; // havamal quote array
 
 quoteBtn.addEventListener("click", function () {
-  let forge = quotes[Math.floor(Math.random() * quotes.length)];
-  quoteText.textContent = forge;
+  let getQuote = havamalQuotes[Math.floor(Math.random() * havamalQuotes.length)];
+  quoteText.textContent = getQuote;
 });
