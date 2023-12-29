@@ -1,5 +1,6 @@
-const quoteText = document.getElementById("quote-text"); // paragraph where quote is displayed
+let quoteText = document.getElementById("quote-text"); // paragraph where quote is displayed
 const quoteBtn = document.getElementById("quote-btn");
+let newQuote = quoteText;
 const havamalQuotes = [
   '"Cattle die, kinsmen die, you yourself will also die. I know one thing that never dies: the judgment of a dead man\'s life." - Odin',
   '"One\'s own house is best, small though it be; at home is everyone his own master. Though he have but two goats and a bark-thatched hut, even that is better than begging." - Odin',
@@ -13,7 +14,11 @@ const havamalQuotes = [
   '"The foolish man thinks he will live forever if he keeps away from fighting; but old age won\'t grant him a truce, even if the spears spare him." - Odin',
 ]; // havamal quote array
 
-quoteBtn.addEventListener("click", function () {
-  let getQuote = havamalQuotes[Math.floor(Math.random() * havamalQuotes.length)];
+quoteBtn.addEventListener("click", genQuote);
+
+function genQuote() {
+  let getQuote =
+    havamalQuotes[Math.floor(Math.random() * havamalQuotes.length)];
   quoteText.textContent = getQuote;
-});
+  console.log()
+}
