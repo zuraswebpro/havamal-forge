@@ -17,8 +17,12 @@ const havamalQuotes = [
 quoteBtn.addEventListener("click", genQuote);
 
 function genQuote() {
-  let getQuote =
-    havamalQuotes[Math.floor(Math.random() * havamalQuotes.length)];
-  quoteText.textContent = getQuote;
-  console.log()
+  let currentQuote = quoteText.textContent;
+  let newQuote;
+
+  do {
+    newQuote = havamalQuotes[Math.floor(Math.random() * havamalQuotes.length)];
+  } while (newQuote === currentQuote);
+
+  quoteText.textContent = newQuote;
 }
